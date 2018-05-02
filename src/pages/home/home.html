@@ -7,8 +7,8 @@
   </ion-header>
   <ion-content class="card-background-page">
     
-      <ion-card>
-        <img src="assets/imgs/desayunos.jpg" height="150" style="filter:brightness(0.6);"/>
+      <ion-card (click)="goDetalle()">
+        <img src="assets/imgs/desayunos.jpg" height="150" style="filter:brightness(0.6);" />
         <div class="card-title">Desayunos</div>
         <div class="card-subtitle">Desayunos a partir de las 7:30 am</div>
       </ion-card>
@@ -22,7 +22,7 @@
       <ion-card>
         <img src="assets/imgs/compras.jpg" height="150" style="width:100%;filter:brightness(0.6);"/>
         <div class="card-title">Compras</div>
-        <div class="card-subtitle">Puedes mirar tus compras</div>
+        <div class="card-subtitle">Todo el historial de tus compras</div>
       </ion-card>
 
       <ion-card>
